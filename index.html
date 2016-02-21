@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+
+	<style type="text/css">
+		@import url(http://fonts.googleapis.com/css?family=Lato:400,100,900);
+
+		body {
+			font-family: 'Lato';
+			margin-bottom: 60px;
+			position: relative;
+		}
+
+		#splashScreen {
+		    position:fixed;
+		    top:0;
+		    bottom:0;
+		    left:0;
+		    right:0; 
+		    width: 100%; 
+		    margin: 0 auto; 
+		    z-index: 2;
+			background: rgb(33, 164, 227);
+
+			display: flex;
+			display:-webkit-flex;
+			justify-content: center;
+			align-items: center;
+
+			-webkit-justify-content: center;
+			-webkit-align-items: center;
+
+			transition: background-color 0.3s ease-in-out;
+			-webkit-transition: background-color 0.3s ease-in-out;
+			-moz-transition: background-color 0.3s ease-in-out;
+		}
+
+		#splashText p:nth-child(1) {
+			position: relative;
+			color: #fff;
+			font-size: 400px;
+			font-family: 'lato';
+			font-weight: 700;
+			width: 100%;
+		}
+
+	</style>
+
+</head>
+<body>
+
+
+	<!-- Splash Screen -->
+	<div id="splashScreen"> 
+		<div id="splashText">
+			<p> Hello.</p>
+		</div>
+	</div>
+
+
+</body>
+</html>
